@@ -91,7 +91,7 @@ getStream(req, res, filepath, statObj) {
         });
     }
 ```
-源代码 [Github地址]()
+源代码 [Github地址](https://github.com/han6054/static-server/tree/master)
 
 
 

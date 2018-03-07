@@ -1,0 +1,23 @@
+{
+  "name": "hj-static-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/template/config.js",
+  "bin": {
+    "static-server": "www"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/han6054/static-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/han6054/static-server/issues"
+  },
+  "homepage": "https://github.com/han6054/static-server#readme"
+}

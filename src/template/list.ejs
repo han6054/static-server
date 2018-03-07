@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+</head>
+<body>
+<% if (files.length) { %>
+<ul>
+    <% files.forEach(function(file){ %>
+    <li><a href="<%= file.url %>"><%= file.name %></a></li>
+    <% }) %>
+</ul>
+<% } %>
+</body>
+</html>

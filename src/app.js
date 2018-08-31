@@ -95,7 +95,7 @@ class Server{
     getEncoding(req,res){
        let acceptEncoding = req.headers['accept-encoding'];
        if(/\bgzip\b/.test(acceptEncoding)){
-           res.setHeaders('Content-Encoding','gzip');
+           res.setHeader('Content-Encoding','gzip');
            return zlib.createGzip();
        }else if(/\bdeflate\b/.test(acceptEncoding)){
            res.setHeader('Content-Encoding', 'deflate');
